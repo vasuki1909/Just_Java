@@ -9,5 +9,13 @@
     <string name="minus">-</string>
     <string name="toppings">TOPPINGS</string>
     <string name="whipped_cream">Whipped Cream</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="_1">1</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="total" translatable="false">\nTotal: ₹</string>
+    <string name="quantiry">\Quantity: \</string>
+    <string name="addchoco">\nAdd chocolate? </string>
+    <string name="addwhippedcream">\nAdd whipped cream? </string>
+    <string name="name">Name: </string>
 
 </resources>

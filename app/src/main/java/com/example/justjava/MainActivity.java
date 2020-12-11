@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
 
     private String createOrderSummary(int price, boolean x, boolean y, String name)
         {
-            String priceMessage = "Name: "+name+"\nAdd whipped cream? "+x+"\nAdd chocolate? "+y+"\nQuantity: "+ noOfCoffee+ "\nTotal: ₹"+price+"\nThank you!";
+            String priceMessage = getString(R.string.name)+name+getString(R.string.addwhippedcream)+x+getString(R.string.addchoco)+y+"\n"+getString(R.string.quantiry)+ noOfCoffee+ getString(R.string.total)+price+"\n"+getString(R.string.thank_you);
            // priceMessage += "Total: ₹"+ calculatePrice(noOfCoffee, 100)+"\nThank you";
 return priceMessage;
         }
